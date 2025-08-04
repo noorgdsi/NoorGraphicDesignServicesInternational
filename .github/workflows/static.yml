@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Graphic Design Services International - Freelance Design Services</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Noor Graphic Design Services International is a freelance graphic designer specializing in branding, UI/UX, and print design. Let’s tell your brand’s visual story.">
+    <meta property="og:title" content="Noor Graphic Design Services International">
+    <meta property="og:description" content="Freelance graphic design services for brand identity, UI/UX, and more.">
+    <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Use Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Use Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS Library for Scroll Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* Custom styles for a clean, modern aesthetic */
+        .header-bg {
+            background-color: rgba(17, 24, 39, 0.8); /* Dark background with transparency */
+            backdrop-filter: blur(8px);
+        }
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+        .animate-slide-up {
+            animation: slideUp 1s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-white overflow-x-hidden">
+
+    <!-- Header Section -->
+    <header class="header-bg sticky top-0 z-50 shadow-lg">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-indigo-400 transform hover:scale-105 transition-transform duration-300">
+                Noor Graphic Design Services International
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-300 hover:text-indigo-400 transition-colors duration-300">About</a>
+                <a href="#skills" class="text-gray-300 hover:text-indigo-400 transition-colors duration-300">Skills</a>
+                <a href="#services" class="text-gray-300 hover:text-indigo-400 transition-colors duration-300">Services</a>
+                <a href="#portfolio" class="text-gray-300 hover:text-indigo-400 transition-colors duration-300">Portfolio</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-indigo-400 transition-colors duration-300">Testimonials</a>
+                <a href="#contact" class="text-gray-300 hover:text-indigo-400 transition-colors duration-300">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 focus:outline-none p-2 rounded-md hover:bg-gray-700 transition-colors duration-300">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="md:hidden hidden bg-gray-900 py-2">
+            <a href="#about" class="block px-4 py-2 text-gray-300 hover:bg-gray-800 transition-colors duration-300">About</a>
+            <a href="#skills" class="block px-4 py-2 text-gray-300 hover:bg-gray-800 transition-colors duration-300">Skills</a>
+            <a href="#services" class="block px-4 py-2 text-gray-300 hover:bg-gray-800 transition-colors duration-300">Services</a>
+            <a href="#portfolio" class="block px-4 py-2 text-gray-300 hover:bg-gray-800 transition-colors duration-300">Portfolio</a>
+            <a href="#testimonials" class="block px-4 py-2 text-gray-300 hover:bg-gray-800 transition-colors duration-300">Testimonials</a>
+            <a href="#contact" class="block px-4 py-2 text-gray-300 hover:bg-gray-800 transition-colors duration-300">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-br from-gray-950 to-indigo-950 min-h-screen flex items-center justify-center text-center px-4">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight text-white mb-6 animate-fade-in" data-aos="fade-up" data-aos-duration="1000">
+                    Let's Tell Your Brand's <span class="text-indigo-400">Visual Story</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto animate-slide-up" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    I craft stunning and strategic graphic designs that make your brand unforgettable. From logos to complete brand identities, I bring your vision to life.
+                </p>
+                
+                <a href="#contact" class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 mb-6 animate-fade-in delay-500" data-aos="zoom-in" data-aos-delay="400">
+                    Get a Free Quote
+                </a>
+
+                <!-- New section for country flags with inline SVGs for compatibility -->
+                <div class="flex flex-wrap justify-center gap-4 mt-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="600">
+                    <a href="#contact" class="flex items-center space-x-2 bg-gray-800 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <svg class="w-8 h-8 mr-2" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg"><path fill="#b22234" d="M0 0h1000v500H0z"/><path stroke="#fff" stroke-width="62.5" d="M0 62.5h1000m0 125H0m0 125h1000m0 125H0"/><path fill="#3c3b6e" d="M0 0h400v250H0z"/><g fill="#fff"><path id="s" d="M50 8.3L61.8 45l40 1.2-30.8 26.6 9.3 39.5L50 91.8l-34.3 26.6 9.3-39.5-30.8-26.6 40-1.2L50 8.3z"/><use href="#s" x="65" y="0"/><use href="#s" x="130" y="0"/><use href="#s" x="195" y="0"/><use href="#s" x="260" y="0"/><use href="#s" x="325" y="0"/><use href="#s" x="32.5" y="25"/><use href="#s" x="97.5" y="25"/><use href="#s" x="162.5" y="25"/><use href="#s" x="227.5" y="25"/><use href="#s" x="292.5" y="25"/><use href="#s" x="0" y="50"/><use href="#s" x="65" y="50"/><use href="#s" x="130" y="50"/><use href="#s" x="195" y="50"/><use href="#s" x="260" y="50"/><use href="#s" x="325" y="50"/><use href="#s" x="32.5" y="75"/><use href="#s" x="97.5" y="75"/><use href="#s" x="162.5" y="75"/><use href="#s" x="227.5" y="75"/><use href="#s" x="292.5" y="75"/><use href="#s" x="0" y="100"/><use href="#s" x="65" y="100"/><use href="#s" x="130" y="100"/><use href="#s" x="195" y="100"/><use href="#s" x="260" y="100"/><use href="#s" x="325" y="100"/><use href="#s" x="32.5" y="125"/><use href="#s" x="97.5" y="125"/><use href="#s" x="162.5" y="125"/><use href="#s" x="227.5" y="125"/><use href="#s" x="292.5" y="125"/><use href="#s" x="0" y="150"/><use href="#s" x="65" y="150"/><use href="#s" x="130" y="150"/><use href="#s" x="195" y="150"/><use href="#s" x="260" y="150"/><use href="#s" x="325" y="150"/><use href="#s" x="32.5" y="175"/><use href="#s" x="97.5" y="175"/><use href="#s" x="162.5" y="175"/><use href="#s" x="227.5" y="175"/><use href="#s" x="292.5" y="175"/><use href="#s" x="0" y="200"/><use href="#s" x="65" y="200"/><use href="#s" x="130" y="200"/><use href="#s" x="195" y="200"/><use href="#s" x="260" y="200"/><use href="#s" x="325" y="200"/></g></svg>
+                        <span>USA</span>
+                    </a>
+                    <a href="#contact" class="flex items-center space-x-2 bg-gray-800 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <svg class="w-8 h-8 mr-2" viewBox="0 0 2100 1050" xmlns="http://www.w3.org/2000/svg"><path fill="#00732f" d="M0 0h2100v350H0z"/><path fill="#fff" d="M0 350h2100v350H0z"/><path fill="#000" d="M0 700h2100v350H0z"/><path fill="#ff0000" d="M0 0h525v1050H0z"/></svg>
+                        <span>UAE</span>
+                    </a>
+                    <a href="#contact" class="flex items-center space-x-2 bg-gray-800 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <svg class="w-8 h-8 mr-2" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg"><clipPath id="a"><path d="M0 0v30h60V0z"/></clipPath><path stroke="#fff" stroke-width="6" d="M-5 0l70 30m0-30L-5 30" clip-path="url(#a)"/><path stroke="#c8102e" stroke-width="4" d="M-5 0l70 30m0-30L-5 30" clip-path="url(#a)"/><path stroke="#fff" stroke-width="10" d="M30 0v30M0 15h60" clip-path="url(#a)"/><path stroke="#c8102e" stroke-width="6" d="M30 0v30M0 15h60" clip-path="url(#a)"/></svg>
+                        <span>UK</span>
+                    </a>
+                    <a href="#contact" class="flex items-center space-x-2 bg-gray-800 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <svg class="w-8 h-8 mr-2" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0 0h1200v600H0z"/><path fill="#c51f47" d="M0 0h300v600H0zm900 0h300v600h-300z"/><g fill="#c51f47"><path id="leaf" d="M600 240l10 50h-20l10-50m-20-40l30 60h-60l30-60"/><use href="#leaf" transform="rotate(30 600 300)"/><use href="#leaf" transform="rotate(60 600 300)"/><use href="#leaf" transform="rotate(90 600 300)"/><use href="#leaf" transform="rotate(120 600 300)"/><use href="#leaf" transform="rotate(150 600 300)"/><use href="#leaf" transform="rotate(180 600 300)"/><use href="#leaf" transform="rotate(210 600 300)"/><use href="#leaf" transform="rotate(240 600 300)"/><use href="#leaf" transform="rotate(270 600 300)"/><use href="#leaf" transform="rotate(300 600 300)"/><use href="#leaf" transform="rotate(330 600 300)"/><path d="M540 340h120l-30 60v-60l30 60h-120"/></g></svg>
+                        <span>Canada</span>
+                    </a>
+                    <a href="#contact" class="flex items-center space-x-2 bg-gray-800 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <svg class="w-8 h-8 mr-2" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0 0h900v600H0z"/><path fill="#002654" d="M0 0h300v600H0z"/><path fill="#ce1126" d="M600 0h300v600h-300z"/></svg>
+                        <span>France</span>
+                    </a>
+                    <a href="#contact" class="flex items-center space-x-2 bg-gray-800 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <svg class="w-8 h-8 mr-2" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg"><path fill="#009246" d="M0 0h300v600H0z"/><path fill="#fff" d="M300 0h300v600H300z"/><path fill="#ce2b37" d="M600 0h300v600H600z"/></svg>
+                        <span>Italy</span>
+                    </a>
+                    <a href="#contact" class="flex items-center space-x-2 bg-gray-800 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <svg class="w-8 h-8 mr-2" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg"><path fill="#d80a13" d="M0 0h1000v500H0z"/><path fill="#fff" d="M0 62.5h1000m0 125H0m0 125h1000m0 125H0"/><path fill="#000" d="M0 125h1000m0 125H0m0 125h1000m0-250H0"/><path fill="#000080" d="M0 0h416.7v250H0z"/><circle cx="208.3" cy="125" r="90" fill="#fff"/><path fill="#d80a13" d="M208.3 45a90 90 0 0 0 0 160h18.3a90 90 0 0 0 0-160z"/><path fill="#fff" d="M208.3 125l16-25-25 10-16-25 16 25-25 10z"/></svg>
+                        <span>Malaysia</span>
+                    </a>
+                    <a href="#contact" class="flex items-center space-x-2 bg-gray-800 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <svg class="w-8 h-8 mr-2" viewBox="0 0 27 18" xmlns="http://www.w3.org/2000/svg"><path fill="#005a96" d="M0 0h27v18H0z"/><path stroke="#fff" stroke-width="2" d="M0 2h27M0 6h27M0 10h27M0 14h27"/><path fill="#fff" d="M0 0h10v10H0z"/><path stroke="#005a96" stroke-width="2" d="M0 5h10M5 0v10"/></svg>
+                        <span>Greece</span>
+                    </a>
+                </div>
+                <!-- End of the new buttons for countries -->
+            </div>
+        </section>
+
+
+        <!-- New Gig Section (Fiverr-style) - Moved here -->
+        <section id="gig-page" class="bg-gray-950 py-20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <!-- Left Column: Gig Details & Image Gallery -->
+                    <div class="w-full" data-aos="fade-right" data-aos-duration="1000">
+                        <h2 class="text-3xl font-bold text-white mb-4">Professional Logo & Branding Package</h2>
+                        <p class="text-gray-400 mb-8 leading-relaxed">
+                            A complete solution to build a strong visual identity for your business. This package includes multiple logo concepts, high-resolution files, a brand style guide, and more, all crafted to make your brand unforgettable.
+                        </p>
+                        
+                        <!-- Image Gallery (You can use a carousel here if you have more images) -->
+                        <div class="grid grid-cols-2 gap-4">
+                            <img src="https://placehold.co/800x600/111827/d1d5db?text=Brand+Concept+1" alt="Brand Concept 1" class="w-full rounded-lg shadow-xl" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="https://placehold.co/800x600/1f2937/d1d5db?text=Logo+Mockup+1" alt="Logo Mockup 1" class="w-full rounded-lg shadow-xl" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="https://placehold.co/800x600/374151/d1d5db?text=Stationery+Mockup" alt="Stationery Mockup" class="w-full rounded-lg shadow-xl" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="https://placehold.co/800x600/4b5563/d1d5db?text=Social+Media+Kit" alt="Social Media Kit" class="w-full rounded-lg shadow-xl" data-aos="zoom-in" data-aos-delay="500">
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Packages and Pricing -->
+                    <div class="w-full bg-gray-900 rounded-xl p-8 shadow-2xl border border-indigo-500" data-aos="fade-left" data-aos-duration="1000">
+                        <!-- Package Tabs -->
+                        <div class="flex space-x-4 mb-8 border-b border-gray-700">
+                            <button class="package-tab text-center pb-3 text-lg font-semibold border-b-2 border-indigo-400 text-indigo-400 transition-colors duration-300" data-package="basic">Basic</button>
+                            <button class="package-tab text-center pb-3 text-lg font-semibold text-gray-400 hover:text-white transition-colors duration-300" data-package="standard">Standard</button>
+                            <button class="package-tab text-center pb-3 text-lg font-semibold text-gray-400 hover:text-white transition-colors duration-300" data-package="premium">Premium</button>
+                        </div>
+                        
+                        <!-- Package Content (Basic) -->
+                        <div id="basic-package" class="package-content space-y-6">
+                            <h3 class="text-3xl font-bold text-white">$20 USD</h3>
+                            <h4 class="text-xl font-semibold text-indigo-400">Basic Package</h4>
+                            <ul class="text-gray-300 space-y-2">
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>2 Unique Logo Concepts</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>High-Resolution Files (JPG & Transparent PNG)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>Unlimited Revisions</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>Urgent 1-Day Delivery</span>
+                                </li>
+                            </ul>
+                            <a href="#contact-form-section" class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">Continue</a>
+                        </div>
+
+                        <!-- Package Content (Standard) -->
+                        <div id="standard-package" class="package-content hidden space-y-6">
+                            <h3 class="text-3xl font-bold text-white">$50 USD</h3>
+                            <h4 class="text-xl font-semibold text-indigo-400">Standard Package</h4>
+                            <ul class="text-gray-300 space-y-2">
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>3 Unique Logo Concepts</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>High-Resolution & Vector Files (AI, PDF, EPS, SVG)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>Unlimited Revisions</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>3-Day Delivery</span>
+                                </li>
+                            </ul>
+                            <a href="#contact-form-section" class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">Continue</a>
+                        </div>
+
+                        <!-- Package Content (Premium) -->
+                        <div id="premium-package" class="package-content hidden space-y-6">
+                            <h3 class="text-3xl font-bold text-white">$100 USD</h3>
+                            <h4 class="text-xl font-semibold text-indigo-400">Premium Package</h4>
+                            <ul class="text-gray-300 space-y-2">
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>5+ Unique Logo Concepts</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>High-Resolution & Vector Files (AI, PDF, EPS, SVG)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>Unlimited Revisions</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>7-Day Delivery</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>Comprehensive Brand Style Guide (Color Palette, Typography, Do's & Don'ts)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 mr-2 text-indigo-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    <span>Social Media Kit & Stationery Designs</span>
+                                </li>
+                            </ul>
+                            <a href="#contact-form-section" class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">Continue</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-gray-950 text-center" data-aos="fade-up">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <!-- User's photo, cropped to a circle -->
+                <img src="https://i.ibb.co/F42njJXd/ed17b49d-7965-4f35-a19e-2bba7b85370e.webp" alt="Noor Sumon" class="w-40 h-40 object-cover mx-auto rounded-full mb-8 shadow-2xl border-4 border-indigo-500" data-aos="fade-in" data-aos-duration="1000">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4" data-aos="fade-up" data-aos-delay="200">Noor Sumon</h2>
+                <p class="text-lg text-gray-400 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="400">
+                    I'm Noor Sumon, the founder and lead designer of Noor Graphic Design Services International. With over 5 years of experience, I specialize in branding, UI/UX, social media visuals, and packaging design. My passion is to help businesses communicate their stories visually in a powerful and memorable way.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-gray-900 py-20" data-aos="fade-up">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold text-white mb-8">Skills</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-indigo-400 text-lg font-medium max-w-5xl mx-auto px-4">
+                    <div class="rounded-lg bg-gray-800 p-6 shadow-xl transform hover:-translate-y-2 transition-transform duration-300">Adobe Illustrator</div>
+                    <div class="rounded-lg bg-gray-800 p-6 shadow-xl transform hover:-translate-y-2 transition-transform duration-300">Photoshop</div>
+                    <div class="rounded-lg bg-gray-800 p-6 shadow-xl transform hover:-translate-y-2 transition-transform duration-300">Figma</div>
+                    <div class="rounded-lg bg-gray-800 p-6 shadow-xl transform hover:-translate-y-2 transition-transform duration-300">Canva</div>
+                    <div class="rounded-lg bg-gray-800 p-6 shadow-xl transform hover:-translate-y-2 transition-transform duration-300">Brand Strategy</div>
+                    <div class="rounded-lg bg-gray-800 p-6 shadow-xl transform hover:-translate-y-2 transition-transform duration-300">UI/UX Design</div>
+                    <div class="rounded-lg bg-gray-800 p-6 shadow-xl transform hover:-translate-y-2 transition-transform duration-300">Typography</div>
+                    <div class="rounded-lg bg-gray-800 p-6 shadow-xl transform hover:-translate-y-2 transition-transform duration-300">Packaging Design</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-gray-950">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Our Services</h2>
+                <p class="text-lg text-gray-400 max-w-xl mx-auto mb-12">
+                    We offer a full spectrum of design services to meet your unique needs and goals.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Service Card 1: Logo Design -->
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2 border border-gray-800" data-aos="fade-up" data-aos-duration="600">
+                        <div class="mb-4">
+                            <!-- SVG Icon for Logo Design -->
+                            <svg class="w-12 h-12 mx-auto text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.314-4.882 5.99-9.155 5.99-1.92 0-3.486-1.57-3.486-3.5 0-1.93 1.566-3.5 3.486-3.5 1.545 0 2.946.85 3.869 2.128M12 11c0 3.314 4.882 5.99 9.155 5.99 1.92 0 3.486-1.57-3.486-3.5 0-1.93-1.566-3.5-3.486-3.5-1.545 0-2.946.85-3.869 2.128m0 0a2.001 2.001 0 10-3.869 0m3.869 0a2.001 2.001 0 11-3.869 0"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Logo & Branding</h3>
+                        <p class="text-gray-400">
+                            I craft unique, memorable logos and cohesive brand identities that resonate with your audience.
+                        </p>
+                    </div>
+                    <!-- Service Card 2: Web Graphics -->
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2 border border-gray-800" data-aos="fade-up" data-aos-duration="800">
+                        <div class="mb-4">
+                            <!-- SVG Icon for Web Graphics -->
+                            <svg class="w-12 h-12 mx-auto text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L10.25 7m4 10L13.75 7m-5.188 5h9.75M5.25 5.25v13.5A2.25 2.25 0 007.5 21h9a2.25 2.25 0 002.25-2.25V5.25A2.25 2.25 0 0016.5 3H7.5A2.25 2.25 0 005.25 5.25z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Web & UI/UX</h3>
+                        <p class="text-gray-400">
+                            I design engaging website graphics, user interfaces, and user experiences that drive conversions.
+                        </p>
+                    </div>
+                    <!-- Service Card 3: Social Media -->
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2 border border-gray-800" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="mb-4">
+                            <!-- SVG Icon for Social Media -->
+                            <svg class="w-12 h-12 mx-auto text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18.75a6.75 6.75 0 100-13.5 6.75 6.75 0 000 13.5zm-5.25-3.75h3l4.5-9H17.25M6.75 15L3 18.75m14.25-3.75h3l-4.5-9H6.75m14.25 3.75L21 9m-3.75 3.75v5.25m-6.75-5.25v5.25m-6.75-5.25v5.25m-3-12l3.75-3.75m11.25 11.25l3.75 3.75"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Social Media Graphics</h3>
+                        <p class="text-gray-400">
+                            I create compelling visuals for social media campaigns that capture attention and build community.
+                        </p>
+                    </div>
+                    <!-- Service Card 4: Print & Packaging -->
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2 border border-gray-800" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="mb-4">
+                            <!-- SVG Icon for Print & Packaging -->
+                            <svg class="w-12 h-12 mx-auto text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 17.25L12 6m0 11.25a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM3.75 12h16.5M3.75 7.5h16.5m-16.5 9h16.5m-16.5 0a2.25 2.25 0 110-4.5 2.25 2.25 0 010 4.5zm16.5 0a2.25 2.25 0 110-4.5 2.25 2.25 0 010 4.5zM12 6h10.5a1.5 1.5 0 011.5 1.5v15a1.5 1.5 0 01-1.5 1.5H1.5A1.5 1.5 0 010 22.5v-15A1.5 1.5 0 011.5 6H12z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Print & Packaging</h3>
+                        <p class="text-gray-400">
+                            I design professional print materials and innovative packaging that makes your products stand out.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Order Now Section -->
+        <section id="order" class="bg-gray-900 py-20 text-center">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8" data-aos="zoom-in">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to get started?</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
+                    Let's turn your vision into reality. We offer professional, high-quality design services tailored to your needs.
+                </p>
+                <h3 class="text-2xl font-bold text-indigo-400 mb-6">A Glimpse of Our Work</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">
+                    <img src="https://placehold.co/600x400/374151/d1d5db?text=Branding+Design" alt="Branding Design Sample" class="w-full rounded-lg shadow-xl" data-aos="fade-up" data-aos-duration="600">
+                    <img src="https://placehold.co/600x400/4b5563/d1d5db?text=UI%2FUX+Design" alt="UI/UX Design Sample" class="w-full rounded-lg shadow-xl" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
+                    <img src="https://placehold.co/600x400/6b7280/d1d5db?text=Social+Media+Graphics" alt="Social Media Graphics Sample" class="w-full rounded-lg shadow-xl" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
+                </div>
+                <a href="#contact" class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                    Order Now
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-20 bg-gray-900" data-aos="fade-up">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">My Recent Work</h2>
+                <p class="text-lg text-gray-400 max-w-xl mx-auto mb-12">
+                    A selection of my latest projects that showcase my creativity and skill.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Portfolio Item 1 -->
+                    <div class="group relative overflow-hidden rounded-xl shadow-xl" data-project-title="Brand Identity for Coffee Shop" data-aos="zoom-in" data-aos-duration="600">
+                        <img src="https://placehold.co/800x600/1e293b/d1d5db?text=Project+1" alt="Portfolio Image 1" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-500 cursor-pointer">
+                        <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div class="text-center p-4">
+                                <h3 class="text-xl font-bold text-white">Brand Identity</h3>
+                                <p class="text-sm text-gray-300">Coffee Shop</p>
+                                <button onclick="getProjectDescription(this)" class="mt-4 px-4 py-2 bg-indigo-500 text-white rounded-full text-sm font-semibold hover:bg-indigo-600 transition-colors duration-300">
+                                    Get a fresh perspective ✨
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2 -->
+                    <div class="group relative overflow-hidden rounded-xl shadow-xl" data-project-title="Website UI for Tech Startup" data-aos="zoom-in" data-aos-duration="800">
+                        <img src="https://placehold.co/800x600/1f2937/d1d5db?text=Project+2" alt="Portfolio Image 2" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-500 cursor-pointer">
+                        <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div class="text-center p-4">
+                                <h3 class="text-xl font-bold text-white">Website UI</h3>
+                                <p class="text-sm text-gray-300">Tech Startup</p>
+                                <button onclick="getProjectDescription(this)" class="mt-4 px-4 py-2 bg-indigo-500 text-white rounded-full text-sm font-semibold hover:bg-indigo-600 transition-colors duration-300">
+                                    Get a fresh perspective ✨
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3 -->
+                    <div class="group relative overflow-hidden rounded-xl shadow-xl" data-project-title="Social Media Campaign for E-commerce" data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="https://placehold.co/800x600/111827/d1d5db?text=Project+3" alt="Portfolio Image 3" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-500 cursor-pointer">
+                        <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div class="text-center p-4">
+                                <h3 class="text-xl font-bold text-white">Social Media Campaign</h3>
+                                <p class="text-sm text-gray-300">E-commerce</p>
+                                <button onclick="getProjectDescription(this)" class="mt-4 px-4 py-2 bg-indigo-500 text-white rounded-full text-sm font-semibold hover:bg-indigo-600 transition-colors duration-300">
+                                    Get a fresh perspective ✨
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Description Modal -->
+        <div id="description-modal" class="fixed inset-0 z-[99] hidden flex items-center justify-center bg-black bg-opacity-75 p-4">
+            <div class="bg-gray-900 p-8 rounded-lg shadow-2xl max-w-lg w-full relative border border-indigo-500 transform scale-95 opacity-0 transition-all duration-300 ease-out">
+                <h3 id="modal-title" class="text-2xl font-bold text-white mb-4"></h3>
+                <div id="modal-content" class="text-gray-300 mb-6 text-base leading-relaxed">
+                    <div id="modal-loading" class="flex items-center justify-center space-x-2 hidden">
+                        <div class="w-4 h-4 rounded-full bg-indigo-400 animate-bounce"></div>
+                        <div class="w-4 h-4 rounded-full bg-indigo-400 animate-bounce" style="animation-delay: -0.15s;"></div>
+                        <div class="w-4 h-4 rounded-full bg-indigo-400 animate-bounce" style="animation-delay: -0.3s;"></div>
+                    </div>
+                    <p id="modal-description"></p>
+                </div>
+                <div class="flex justify-end">
+                    <button onclick="closeModal()" class="px-6 py-2 bg-indigo-500 text-white rounded-full font-semibold hover:bg-indigo-600 transition-colors duration-300">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-20 bg-gray-950" data-aos="fade-up">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">What Clients Say</h2>
+                <p class="text-lg text-gray-400 max-w-xl mx-auto mb-12">
+                    Don't just take my word for it. Hear what clients have to say about working with us.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- Testimonial Card 1 -->
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800" data-aos="fade-right" data-aos-duration="800">
+                        <p class="text-gray-300 italic mb-4">
+                            "The designs completely transformed our brand identity. The new logo is exactly what we needed to stand out. Highly recommend!"
+                        </p>
+                        <p class="text-white font-semibold">- Jane Doe, Founder of 'The Daily Grind'</p>
+                    </div>
+                    <!-- Testimonial Card 2 -->
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800" data-aos="fade-left" data-aos-duration="800">
+                        <p class="text-gray-300 italic mb-4">
+                            "The web graphics created were fantastic. Our website traffic and conversion rates have improved significantly since launching the new design."
+                        </p>
+                        <p class="text-white font-semibold">- John Smith, CEO of 'FutureTech Solutions'</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call-to-Action (CTA) Section -->
+        <section id="contact" class="py-20 bg-indigo-600 text-center" data-aos="zoom-in">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Launch Your Project?</h2>
+                <p class="text-xl text-indigo-100 max-w-2xl mx-auto mb-8">
+                    Let's collaborate and create something amazing together. Contact us today to discuss your vision.
+                </p>
+                <a href="https://wa.link/nqmh4d" target="_blank" class="inline-block bg-white text-indigo-600 font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 mb-6">
+                    Contact via WhatsApp
+                </a>
+            </div>
+        </section>
+        
+        <!-- Simple Contact Form -->
+        <section class="bg-gray-900 py-20" id="contact-form-section">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-xl text-left" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="text-2xl font-bold text-white mb-6">Send a Message</h3>
+                <form action="https://formspree.io/f/meozlren" method="POST" class="space-y-6">
+                    <input type="text" name="name" placeholder="Your Name" required class="w-full px-4 py-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                    <input type="email" name="email" placeholder="Your Email" required class="w-full px-4 py-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                    <textarea name="message" rows="5" placeholder="Your Message" required class="w-full px-4 py-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                    <button type="submit" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                        Send
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-950 text-gray-400 py-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up">
+            <p>&copy; 2025 Noor Graphic Design Services International. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- AOS and other scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true, // only animate once
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollInView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu after clicking a link
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Mobile menu toggle logic
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Gig package tab switching logic
+        const packageTabs = document.querySelectorAll('.package-tab');
+        const packageContents = document.querySelectorAll('.package-content');
+
+        packageTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const packageId = tab.getAttribute('data-package');
+                
+                // Deactivate all tabs and hide all content
+                packageTabs.forEach(t => {
+                    t.classList.remove('border-indigo-400', 'text-indigo-400');
+                    t.classList.add('text-gray-400');
+                });
+                packageContents.forEach(c => c.classList.add('hidden'));
+
+                // Activate the clicked tab and show its content
+                tab.classList.add('border-indigo-400', 'text-indigo-400');
+                document.getElementById(`${packageId}-package`).classList.remove('hidden');
+            });
+        });
+
+        // Utility function for exponential backoff
+        const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+        const MAX_RETRIES = 5;
+        const INITIAL_DELAY = 1000;
+
+        // Gemini API integration for project descriptions
+        async function getProjectDescription(button) {
+            const projectTitle = button.parentElement.parentElement.getAttribute('data-project-title');
+            const modalTitle = document.getElementById('modal-title');
+            const modalDescription = document.getElementById('modal-description');
+            const modal = document.getElementById('description-modal');
+            const modalContent = modal.querySelector('div');
+            const modalLoading = document.getElementById('modal-loading');
+
+            // Show loading state
+            modalTitle.textContent = "Generating...";
+            modalDescription.textContent = "";
+            modalLoading.classList.remove('hidden');
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modalContent.classList.remove('scale-95', 'opacity-0');
+            }, 10);
+
+            // Construct the prompt for the Gemini API
+            const prompt = `Write a short, creative, and professional description for a graphic design project titled: "${projectTitle}". The description should highlight the design's purpose, target audience, and visual impact. The output should be about 3-4 sentences long.`;
+
+            // Make API call to Gemini with exponential backoff
+            let retries = 0;
+            let delay = INITIAL_DELAY;
+
+            while (retries < MAX_RETRIES) {
+                try {
+                    const apiKey = "";
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+                    const payload = {
+                        contents: [{
+                            parts: [{
+                                text: prompt
+                            }]
+                        }]
+                    };
+
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(payload)
+                    });
+                    
+                    if (response.status === 429) {
+                        retries++;
+                        await sleep(delay);
+                        delay *= 2;
+                        continue;
+                    }
+
+                    const result = await response.json();
+                    
+                    if (result.candidates && result.candidates.length > 0 && result.candidates[0].content && result.candidates[0].content.parts && result.candidates[0].content.parts.length > 0) {
+                        const text = result.candidates[0].content.parts[0].text;
+                        modalTitle.textContent = projectTitle;
+                        modalDescription.textContent = text;
+                    } else {
+                        modalTitle.textContent = "Error";
+                        modalDescription.textContent = "Failed to generate a description. Please try again.";
+                    }
+                    modalLoading.classList.add('hidden');
+                    return;
+                } catch (error) {
+                    console.error('Error calling Gemini API:', error);
+                    retries++;
+                    await sleep(delay);
+                    delay *= 2;
+                }
+            }
+            // Fallback after max retries
+            modalTitle.textContent = "Error";
+            modalDescription.textContent = "An error occurred while connecting to the API after multiple retries.";
+            modalLoading.classList.add('hidden');
+        }
+        
+        function closeModal() {
+            const modal = document.getElementById('description-modal');
+            const modalContent = modal.querySelector('div');
+            modalContent.classList.add('scale-95', 'opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300); // Wait for the transition to finish
+        }
+
+    </script>
+</body>
+</html>
