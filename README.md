@@ -2,7 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noor Graphic Design Services International - Freelance Design Services</title>
     <!-- SEO Meta Tags -->
     <meta name="description" content="Noor Graphic Design Services International is a freelance graphic designer specializing in branding, UI/UX, and print design. Let’s tell your brand’s visual story.">
     <meta property="og:title" content="Noor Graphic Design Services International">
